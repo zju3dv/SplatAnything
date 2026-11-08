@@ -61,7 +61,7 @@ From everyday objects to expansive aerial views, SplatAnything turns simple capt
   <tr>
     <td width="25%" align="center" valign="top">
       <h3>🧸</h3>
-      <strong>Objects</strong><br>
+      <strong>Object</strong><br>
     </td>
     <td width="25%" align="center" valign="top">
       <h3>🛋️</h3>
