@@ -1,4 +1,4 @@
-<h1 align="center">SplatAnything (InfiniSplat v3)</h1>
+<h1 align="center">🌐 SplatAnything (InfiniSplat v3)</h1>
 <h3 align="center">Gaussian Spacing Normalization for Feed-Forward 3DGS across Arbitrary Scenes</h3>
 
 <p align="center">
@@ -20,9 +20,10 @@
 </p>
 
 <p align="center">
-  <a href="https://zju3dv.github.io/SplatAnything/"><img src="assets/readme/project-page.svg" alt="Project Page" height="32"></a>
-  <a href="https://arxiv.org/html/2611.08264"><img src="assets/readme/paper.svg" alt="Paper" height="32"></a>
-  <a href="https://huggingface.co/"><img src="assets/readme/huggingface-demo.svg" alt="Hugging Face Demo" height="32"></a>
+  <a href="https://zju3dv.github.io/SplatAnything/"><img src="https://img.shields.io/badge/Project-red?logo=googlechrome&amp;logoColor=white" alt="Project Page"></a>
+  <a href="https://arxiv.org/html/2611.08264"><img src="https://img.shields.io/badge/Paper-blue?logo=arxiv&amp;logoColor=white" alt="Paper"></a>
+  <a href="https://huggingface.co/"><img src="https://img.shields.io/badge/Demo-yellow?logo=huggingface&amp;logoColor=white" alt="Hugging Face Demo"></a>
+  <a href="https://huggingface.co/ritianyu/SplatAnything/tree/main"><img src="https://img.shields.io/badge/Weights-yellow?logo=huggingface&amp;logoColor=white" alt="Hugging Face Weights"></a>
 </p>
 
 <p align="center">
@@ -42,11 +43,15 @@
   <a href="#citation">Citation</a>
 </p>
 
-## News
+<a name="news"></a>
+
+## 📣 News
 
 - **2026-11-09** — Inference code of SplatAnything is released!
 
-## What can SplatAnything do?
+<a name="what-can-splatanything-do"></a>
+
+## 🧩 What can SplatAnything do?
 
 **One model, across arbitrary scenes.**
 
@@ -57,28 +62,26 @@ From everyday objects to expansive aerial views, SplatAnything turns simple capt
     <td width="25%" align="center" valign="top">
       <h3>🧸</h3>
       <strong>Objects</strong><br>
-      <sub>Fine details</sub>
     </td>
     <td width="25%" align="center" valign="top">
       <h3>🛋️</h3>
-      <strong>Indoor scenes</strong><br>
-      <sub>Rooms &amp; interiors</sub>
+      <strong>Indoor</strong><br>
     </td>
     <td width="25%" align="center" valign="top">
       <h3>🏙️</h3>
-      <strong>Street scenes</strong><br>
-      <sub>Streets &amp; blocks</sub>
+      <strong>Street</strong><br>
     </td>
     <td width="25%" align="center" valign="top">
       <h3>🛰️</h3>
-      <strong>Aerial scenes</strong><br>
-      <sub>Cities &amp; terrain</sub>
+      <strong>Aerial</strong><br>
     </td>
   </tr>
 </table>
 
 
-## Installation
+<a name="installation"></a>
+
+## ⚙️ Installation
 
 Use Python 3.10+ and PyTorch 2.4+ with a CUDA build compatible with your NVIDIA driver. Install PyTorch first, then:
 
@@ -110,7 +113,9 @@ examples/object/
 └── prior_camera.json
 ```
 
-## SplatAnything Inference
+<a name="splatanything-inference"></a>
+
+## 🚀 SplatAnything Inference
 
 Point `--input_path` at a scene directory and choose a mode. Inference uses all images in `images/`, with a default resolution of **756 × 756**:
 
@@ -185,7 +190,9 @@ To use the prepared panorama example, replace `data/my_pano` above with `example
 
 See **[the full inference reference](docs/inference.md)** for defaults, checkpoints, filtering, voxel merging, and output coordinates. Run `python inference.py --help` for CLI options.
 
-## Acknowledgements
+<a name="acknowledgements"></a>
+
+## 🙏 Acknowledgements
 
 We thank [Jiawei Wang](https://plus-wave.github.io/) and [Yujie Guo](https://guoyujie.cn/) for insightful discussions and valuable feedback.
 
