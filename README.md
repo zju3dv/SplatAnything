@@ -22,7 +22,7 @@
 <p align="center">
   <a href="https://zju3dv.github.io/SplatAnything/"><img src="https://img.shields.io/badge/Project-red?logo=googlechrome&amp;logoColor=white" alt="Project Page"></a>
   <a href="https://arxiv.org/html/2611.08264"><img src="https://img.shields.io/badge/Paper-blue?logo=arxiv&amp;logoColor=white" alt="Paper"></a>
-  <a href="https://huggingface.co/"><img src="https://img.shields.io/badge/Demo-yellow?logo=huggingface&amp;logoColor=white" alt="Hugging Face Demo"></a>
+  <a href="https://huggingface.co/spaces/ritianyu/SplatAnything"><img src="https://img.shields.io/badge/Demo-yellow?logo=huggingface&amp;logoColor=white" alt="Hugging Face Demo"></a>
   <a href="https://huggingface.co/ritianyu/SplatAnything/tree/main"><img src="https://img.shields.io/badge/Weights-yellow?logo=huggingface&amp;logoColor=white" alt="Hugging Face Weights"></a>
 </p>
 
@@ -55,25 +55,35 @@
 
 **One model, across arbitrary scenes.**
 
-From everyday objects to expansive aerial views, SplatAnything turns simple captures into 3D Gaussian scenes.
+From everyday objects and human subjects to expansive aerial views, SplatAnything turns simple captures into 3D Gaussian scenes.
+
+It also supports **Rig-Recon** for autonomous driving and **Pano-Recon** for AR/VR, enabling 3D reconstruction from multi-camera rigs and 360° panoramas.
 
 <table align="center" width="100%">
   <tr>
     <td width="25%" align="center" valign="top">
       <h3>🧸</h3>
-      <strong>Object</strong><br>
+      <strong>Objects & Humans</strong><br>
     </td>
     <td width="25%" align="center" valign="top">
       <h3>🛋️</h3>
-      <strong>Indoor</strong><br>
+      <strong>Indoor Scenes</strong><br>
     </td>
     <td width="25%" align="center" valign="top">
       <h3>🏙️</h3>
-      <strong>Street</strong><br>
+      <strong>Street Scenes</strong><br>
     </td>
     <td width="25%" align="center" valign="top">
       <h3>🛰️</h3>
-      <strong>Aerial</strong><br>
+      <strong>Aerial Scenes</strong><br>
+    </td>
+    <td width="25%" align="center" valign="top">
+      <h3>🚓</h3>
+      <strong>Rig-Recon</strong><br>
+    </td>
+    <td width="25%" align="center" valign="top">
+      <h3>🥽</h3>
+      <strong>Pano-Recon</strong><br>
     </td>
   </tr>
 </table>
