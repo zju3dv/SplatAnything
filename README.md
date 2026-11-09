@@ -127,7 +127,7 @@ examples/object/
 
 ## 🚀 SplatAnything Inference
 
-Point `--input_path` at a scene directory and choose a mode. Inference uses all images in `images/`, with a default resolution of **756 × 756**:
+Point `--input_path` at a scene directory and choose a mode. Inference uses all images in `images/`, with a default resolution of **756 × 756**。 You can also specify a different resolution with `--resolution W H` (supports input resolutions of 1K and above).
 
 ```bash
 # RGB-only: 
