@@ -45,9 +45,9 @@
 
 <a name="news"></a>
 
-## 📣 News
+## 🌟 About SplatAnything
 
-- **2026-11-09** — Inference code of SplatAnything is released!
+SplatAnything is **v3 of the InfiniSplat series**. We are dedicated to developing high-quality feed-forward 3D Gaussian reconstruction models for autonomous driving, robot navigation, AR/VR and game development. For more information about our previous work, please visit the [InfiniSplat repository](https://github.com/zju3dv/InfiniSplat).
 
 <a name="what-can-splatanything-do"></a>
 
