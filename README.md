@@ -113,7 +113,7 @@ checkpoints/
 
 ## Inputs
 
-Use a scene directory containing overlapping RGB images in `images/`. Pose-conditioned mode also requires `prior_camera.json` in that directory; RGB mode ignores this file. See [prepare_data.md](prepare_data.md) for scene layout, camera conversion, and panorama preparation.
+Use a scene directory containing overlapping RGB images in `images/`. Pose-conditioned mode also requires `prior_camera.json` in that directory; RGB mode ignores this file. See [prepare_data.md](docs/prepare_data.md) for scene layout, camera conversion, and panorama preparation.
 
 One example scene is included per category: [object](examples/object/), [indoor](examples/indoor/), [street](examples/street/), [aerial](examples/aerial/), [rig](examples/rig/), and [pano](examples/pano/). Each category directory contains its images and camera JSON directly:
 
@@ -171,7 +171,7 @@ python inference.py \
   --output_path outputs/rig/pose
 ```
 
-This command reconstructs all 150 rig views at 504 × 504. [Camera preparation](prepare_data.md#prepare-your-camera-inputs)
+This command reconstructs all 150 rig views at 504 × 504. [Camera preparation](docs/prepare_data.md#prepare-your-camera-inputs)
 
 ### Pano-Recon for AR / VR · From 360° to 3D
 
@@ -187,7 +187,7 @@ python inference.py \
   --mode pose
 ```
 
-To use the prepared panorama example, replace `data/my_pano` above with `examples/pano`. All 24 perspective views are used. See [panorama preparation and view layout](prepare_data.md#panorama-to-24-perspective-views).
+To use the prepared panorama example, replace `data/my_pano` above with `examples/pano`. All 24 perspective views are used. See [panorama preparation and view layout](docs/prepare_data.md#panorama-to-24-perspective-views).
 
 ## Parameter Explanation
 
