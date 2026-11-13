@@ -1,6 +1,6 @@
 # Prepare input data for SplatAnything
 
-This guide describes how to prepare images and optional camera priors for SplatAnything. To run a prepared scene, see [SplatAnything Inference](README.md#splatanything-inference).
+This guide describes how to prepare images and optional camera priors for SplatAnything. To run a prepared scene, see [SplatAnything Inference](../usage.md#splatanything-inference).
 
 ## Scene layout 
 

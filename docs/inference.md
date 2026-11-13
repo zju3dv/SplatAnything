@@ -1,6 +1,6 @@
 # Inference reference
 
-[Back to README](../README.md#splatanything-inference)
+[Back to README](../usage.md#splatanything-inference)
 
 ## Inputs and modes
 
@@ -15,7 +15,7 @@ Inference options come from the command line and [configs/inference.yaml](../con
 | Option | Default | Meaning |
 |---|---|---|
 | `--config_path` | Repository `configs/inference.yaml` | Inference YAML file |
-| `--input_path` | Required | Scene directory containing `images/` and, for pose mode, `prior_camera.json`; see [prepare_data.md](../prepare_data.md) |
+| `--input_path` | Required | Scene directory containing `images/` and, for pose mode, `prior_camera.json`; see [prepare_data.md](prepare_data.md) |
 | `--output_path` | Repository `outputs/` | Output root; results are saved under `OUTPUT/SCENE/` |
 | `--resolution W H` | `756 756` | Model input width and height; both must be positive multiples of 14 |
 | `--mode rgb` / `--mode pose` | YAML mode (RGB by default) | Predict cameras, or use `prior_camera.json` inside the scene directory |
